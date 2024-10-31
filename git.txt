@@ -42,9 +42,11 @@ git init ---> working directory ---> git add ---> staging area ----> git commit 
 # Branch Commands
 - git branch (show all branches and where head points)
 - git branch name (create a branch)
-- git switch branchname (head point to branchname)
-- git switch -c branchname (create branch and head point to branchname)
-- git checkout branchname (switch branch)
+- git switch <branchname> (head point to branchname)
+- git switch -c <branchname> (create branch and head point to branchname)
+- git checkout <branchname> (switch branch)
+- git branch -m <old_branch_name> <new_branch_name> (rename a branch)
+- git branch -d <branch_name> (delete branch)
 
 # merge branches
 - git merge branchname
