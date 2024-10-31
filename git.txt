@@ -38,3 +38,13 @@ git init ---> working directory ---> git add ---> staging area ----> git commit 
 
 # change editor
 - git config --global core.editor "code --wait"
+
+# Branch Commands
+- git branch (show all branches and where head points)
+- git branch name (create a branch)
+- git switch branchname (head point to branchname)
+- git switch -c branchname (create branch and head point to branchname)
+- git checkout branchname (switch branch)
+
+# merge branches
+- git merge branchname
