@@ -1,0 +1,27 @@
+# Installation of Git
+- sudo apt update
+- sudo apt install git
+
+# check git version
+- git --version
+
+# Add or change username and email
+- git config --global user.email "email address"
+- git config --global user.name "username"
+
+# Check configuration list
+- git config --list
+
+# Create a repository
+- git init
+
+# Change branch name
+- git config --global init.defaultBranch <name>
+- git branch -m <name>
+
+# git flow
+git init ---> working directory ---> git add ---> staging area ----> git commit ---> Repo ---> git push ---> Github
+
+# staging area
+- git add . (add all files present in folder)
+- git add file1 file2 .... (give file name which have to add)
