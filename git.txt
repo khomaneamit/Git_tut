@@ -35,3 +35,6 @@ git init ---> working directory ---> git add ---> staging area ----> git commit 
 # log
 - git log
 - git log --oneline
+
+# change editor
+- git config --global core.editor "code --wait"
