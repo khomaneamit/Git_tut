@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 
 hello hii
 
 add footer note
+=======
+hffihoifwd
+aditya khomane
+>>>>>>> bug-fix
