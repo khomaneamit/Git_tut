@@ -31,3 +31,7 @@ git init ---> working directory ---> git add ---> staging area ----> git commit 
 
 # Repo area
 - git commit -m "message"
+
+# log
+- git log
+- git log --oneline
