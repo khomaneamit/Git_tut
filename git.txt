@@ -25,3 +25,9 @@ git init ---> working directory ---> git add ---> staging area ----> git commit 
 # staging area
 - git add . (add all files present in folder)
 - git add file1 file2 .... (give file name which have to add)
+
+# Unstage
+- git rm --cached <file>...
+
+# Repo area
+- git commit -m "message"
